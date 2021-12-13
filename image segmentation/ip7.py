@@ -27,7 +27,6 @@ plt.subplot(243),plt.imshow(opening),plt.title('Opening')
 sure_bg = cv2.dilate(opening,kernel,iterations=3)
 plt.subplot(244),plt.imshow(sure_bg),plt.title('sure_bg')
 
-# hello! Part 2!
 #sure foreground
 dist_transform = cv2.distanceTransform(opening,cv2.DIST_L2,5)
 ret, sure_fg = cv2.threshold(dist_transform,0.7*dist_transform.max(),255,0)
@@ -47,7 +46,6 @@ img[markers==-1]=[255,0,0]
 plt.subplot(248),plt.imshow(img),plt.title('result')
 
 #click run
-#thank you!!
 
 
 
