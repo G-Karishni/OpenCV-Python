@@ -1,5 +1,11 @@
 # OpenCV_in_python
 
+## Prerequisite: import opencv
+Step1: Open anaconda prompt
+Step2: Type "conda install -c conda-forge opencv" (without the quotes)
+Step3: Installation will proceed. Type y when asked for Proceed (y/n)?
+Step4: Opencv Installation is successful
+
 ## Video tutorials for OpenCV!
 
 How to load and display using opencv in python? Colour image to greyscale image </br>
